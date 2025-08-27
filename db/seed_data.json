@@ -1,0 +1,102 @@
+[
+    {
+        "id": "WO-1001",
+        "product": "Widget A",
+        "qty": 100,
+        "operations": [
+            {
+                "id": "OP-1",
+                "workOrderId": "WO-1001",
+                "index": 1,
+                "machineId": "M1",
+                "name": "Cut",
+                "start": "2025-08-20T09:00:00Z",
+                "end": "2025-08-20T10:00:00Z"
+            },
+            {
+                "id": "OP-2",
+                "workOrderId": "WO-1001",
+                "index": 2,
+                "machineId": "M2",
+                "name": "Assemble",
+                "start": "2025-08-20T10:10:00Z",
+                "end": "2025-08-20T12:00:00Z"
+            }
+        ]
+    },
+    {
+        "id": "WO-1002",
+        "product": "Widget B",
+        "qty": 50,
+        "operations": [
+            {
+                "id": "OP-3",
+                "workOrderId": "WO-1002",
+                "index": 1,
+                "machineId": "M1",
+                "name": "Cut",
+                "start": "2025-08-20T09:30:00Z",
+                "end": "2025-08-20T10:30:00Z"
+            },
+            {
+                "id": "OP-4",
+                "workOrderId": "WO-1002",
+                "index": 2,
+                "machineId": "M2",
+                "name": "Assemble",
+                "start": "2025-08-20T10:40:00Z",
+                "end": "2025-08-20T12:15:00Z"
+            }
+        ]
+    },
+    {
+        "id": "WO-1003",
+        "product": "Widget C",
+        "qty": 200,
+        "operations": [
+            {
+                "id": "OP-5",
+                "workOrderId": "WO-1003",
+                "index": 1,
+                "machineId": "M3",
+                "name": "Paint",
+                "start": "2025-08-20T11:00:00Z",
+                "end": "2025-08-20T12:30:00Z"
+            },
+            {
+                "id": "OP-6",
+                "workOrderId": "WO-1003",
+                "index": 2,
+                "machineId": "M2",
+                "name": "Assemble",
+                "start": "2025-08-20T12:40:00Z",
+                "end": "2025-08-20T14:00:00Z"
+            }
+        ]
+    },
+    {
+        "id": "WO-1004",
+        "product": "Widget D",
+        "qty": 75,
+        "operations": [
+            {
+                "id": "OP-7",
+                "workOrderId": "WO-1004",
+                "index": 1,
+                "machineId": "M1",
+                "name": "Cut",
+                "start": "2025-08-20T13:00:00Z",
+                "end": "2025-08-20T14:00:00Z"
+            },
+            {
+                "id": "OP-8",
+                "workOrderId": "WO-1004",
+                "index": 2,
+                "machineId": "M3",
+                "name": "Polish",
+                "start": "2025-08-20T14:10:00Z",
+                "end": "2025-08-20T15:30:00Z"
+            }
+        ]
+    }
+]
